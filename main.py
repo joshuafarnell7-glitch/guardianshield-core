@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException, status
+appfrom fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from pydantic import BaseModel, EmailStr
 from typing import List, Optional
@@ -429,4 +429,5 @@ def analyze_text(req: AnalyzeTextRequest):
         risk_score=score,
         risk_labels=labels,
         explanation=explanation,
-    )
+)
+    
