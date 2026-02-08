@@ -15,7 +15,7 @@ from passlib.context import CryptContext
 # -----------------------------
 
 DATABASE_URL = "sqlite:///./guardianshield.db"
-JWT_SECRET_KEY = godmode1224567890King$1$2$3$4
+JWT_SECRET_KEY = "godmode1224567890King$1$2$3$4"
 JWT_ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
